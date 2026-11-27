@@ -22,6 +22,7 @@ AIRPORTS = {
     "EDDF": {"name": "Frankfurt", "lat": 50.0379, "lon": 8.5622, "tz": "Europe/Berlin"},
     "EDDK": {"name": "Cologne/Bonn", "lat": 50.8659, "lon": 7.1427, "tz": "Europe/Berlin"},
     "EDDL": {"name": "Düsseldorf", "lat": 51.2895, "lon": 6.7668, "tz": "Europe/Berlin"},
+    "EDDM": {"name": "Munich", "lat": 48.3538, "lon": 11.7861, "tz": "Europe/Berlin"},
     "KSTL": {"name": "St. Louis", "lat": 38.7487, "lon": -90.3700, "tz": "America/Chicago"},
     "KORD": {"name": "Chicago", "lat": 41.9742, "lon": -87.9073, "tz": "America/Chicago"},
 }
@@ -32,7 +33,7 @@ EXIT_BUFFER = 30
 TERMINAL_BUFFER = 30
 SAFETY_MARGIN = 10
 
-SEARCH_BOX = 5.0  # degrees around the airport for the OpenSky request
+SEARCH_BOX = 15.0  # degrees around the airport for the OpenSky request (about 1600 km)
 CSV_PATH = "reports/leave_log.csv"
 
 
